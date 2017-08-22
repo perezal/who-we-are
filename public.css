@@ -1,0 +1,78 @@
+#wwa-plugin.wwa-profiles {
+  text-align: center;
+  font-size: 0;
+}
+
+#wwa-plugin .wwa-image {
+  height: 225px;
+  width: 100%;
+  margin: 0 auto;
+  background-size: cover;
+  background-position: center center;
+  transition: all 0.3s;
+}
+
+#wwa-plugin .wwa-image:hover ~ .wwa-text {
+  transform: translateY(0);
+}
+
+#wwa-plugin span {
+  white-space: nowrap;
+}
+
+#wwa-plugin a {
+  color: white;
+}
+
+#wwa-plugin .wwa-profile {
+  position: relative;
+  display: inline-block;
+  width: 33%;
+  font-size: 14px;
+  text-align: center;
+  vertical-align: top;
+  overflow: hidden;
+}
+
+#wwa-plugin .wwa-links {
+  padding: 0 10px;
+}
+
+#wwa-plugin .wwa-links > a {
+  white-space: nowrap;
+}
+
+#wwa-plugin .wwa-text {
+  position: absolute;
+  bottom: 0;
+  padding: 5px 0;
+  width: 100%;
+  color: white;
+  background: rgba(0,0,0,0.8);
+  transform: translateY(100%);
+  transition: all 0.3s ease-in-out;
+}
+
+#wwa-plugin .wwa-text:hover {
+  transform: translateY(0);
+}
+
+@media (max-width: 1100px) {
+  #wwa-plugin .wwa-profile {
+    width: 50%;
+  }
+}
+
+@media (max-width: 725px) {
+  #wwa-plugin .wwa-profile {
+    width: 100%;
+  }
+}
+
+@media (any-hover: none) {
+  #wwa-plugin .wwa-text {
+    height: 90px;
+    position: relative;
+    transform: translateY(0);
+  }
+}

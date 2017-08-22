@@ -1,0 +1,71 @@
+.wwa-window {
+  padding: 50px;
+}
+
+.wwa-add-profile {
+  margin-bottom: 20px;
+}
+
+.wwa-profile {
+  padding: 10px;
+  margin: 40px 0;
+  border: 1px solid black;
+}
+
+.wwa-image {
+  height: 150px;
+  width: 150px;
+  display: inline-block;
+  margin: 0;
+  border-radius: 500px;
+  border: 10px solid rgba(0, 0, 0, 0.4);
+  background-size: cover;
+  background-position: center center;
+  transition: all 0.3s;
+}
+
+.wwa-image:hover {
+  border: 10px solid rgba(0, 0, 0, 0.8);
+}
+
+.wwa-text {
+  position: relative;
+  margin: 20px;
+}
+
+.wwa-text input {
+  width: 250px;
+}
+
+.wwa-admin .zone {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.wwa-admin .zone > * {
+  display: block;
+}
+
+.wwa-buttons {
+  margin: 20px;
+}
+
+.wwa-buttons > button {
+  margin: 10px auto;
+}
+
+input#order-no {
+  width: 50px;
+}
+
+button {
+  cursor: pointer;
+  padding: 10px 20px;
+  background: linear-gradient(#eee, #4c6ad4);
+  border-radius: 10px;
+  display: block;
+}
+
+button.red {
+  background: linear-gradient(#eee, red);
+}
